@@ -1,0 +1,22 @@
+{
+  "npmScope": "e-proc",
+  "implicitDependencies": {
+    "angular.json": "*",
+    "package.json": {
+      "dependencies": "*",
+      "devDependencies": "*"
+    },
+    "tsconfig.json": "*",
+    "tslint.json": "*",
+    "nx.json": "*"
+  },
+  "projects": {
+    "catalog": {
+      "tags": []
+    },
+    "catalog-e2e": {
+      "tags": [],
+      "implicitDependencies": ["catalog"]
+    }
+  }
+}
