@@ -15,7 +15,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@e-proc/catalog/domain": ["libs/catalog/domain/src/index.ts"],
+      "@e-proc/ordering/domain": ["libs/ordering/domain/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

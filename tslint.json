@@ -58,6 +58,14 @@
           {
             "sourceTag": "*",
             "onlyDependOnLibsWithTags": ["*"]
+          },
+          {
+            "sourceTag": "domain:catalog",
+            "onlyDependOnLibsWithTags": ["domain:catalog", "shared"]
+          },
+          {
+            "sourceTag": "domain:ordering",
+            "onlyDependOnLibsWithTags": ["domain:ordering", "shared"]
           }
         ]
       }
